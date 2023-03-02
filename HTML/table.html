@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table in Practice</title>
+    <style>
+        table, th, tr,td {
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <caption><em>A table with merged cells</em></caption>
+    <table>
+
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Blue Eyes</th>
+        </tr>
+        <tr>
+            <th style="text-align:center;">Height</th>
+            <th>Weight</th>
+        </tr>
+        <tr>
+            <th>Males</th>
+            <td>2.1</td>
+            <td>0.005</td>
+            <td>46%</td>
+        </tr>
+        <tr>
+            <th>Females</th>
+            <td>1.9</td>
+            <td>0.003</td>
+            <td>45%</td>
+        </tr>
+
+    </table>
+</body>
+</html>
