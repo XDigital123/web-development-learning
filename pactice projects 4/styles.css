@@ -1,0 +1,43 @@
+body {
+    background-color:lightpink;
+}
+
+.container {
+    width:80%;
+    margin-inline: auto;
+    background-color: rgba(238, 124, 238, 0.374);
+    border-radius:10px;
+}
+
+.cat-outside {
+    width:80px;
+    position:relative;
+    top:50px;
+}
+
+
+.kitten {
+    width:200px;
+    float: right;
+}
+
+.bottom-kitten {
+    width:200px;
+    float: left;
+}
+
+.top-paragraph {
+    text-align: justify;
+}
+
+.bottom-paragraph {
+    text-align: justify;
+}
+
+
+.text-box{
+    
+    background-color:white;
+    padding:40px;
+    border-radius: 10px;
+}
