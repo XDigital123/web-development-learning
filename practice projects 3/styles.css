@@ -1,0 +1,33 @@
+.btn {
+    background-color:black;
+    color:white;
+    margin:10px;
+    height:30px;
+
+}
+
+.city-name {
+    margin-left:10px;
+}
+
+
+.date {
+    color:rgba(128, 128, 128, 0.616);
+    margin-left:10px;
+}
+.design {
+    border: 5px solid black;
+    display:inline-block;
+    margin:100px 43%;
+    
+}
+
+.Newyork {
+    
+    height:200px;
+    width:310px;
+}
+.para {
+    width:300px;
+    margin-left:10px;
+}
