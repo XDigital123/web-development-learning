@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    /* font-family: ; */
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+
+header {
+     margin-top:20px;
+}
+
+/* me */
+ul{
+    border-style:none;
+}
+
+
+li {
+    border-style: none;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor:pointer;
+    color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight:600;
+    width:fit-content;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+    border:1px solid black;
+}
+
+nav{
+    display:flex;
+    width:100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo{
+    font-weight: 700;
+    font-size:30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap:40px;
+    font-weight: 500;
+}
+
+nav ul li:hover {
+ text-decoration: underline;
+ font-weight: 900;
+}
+
+.search-btn {
+    display: flex;
+    gap:35px;
+}
+
+input {
+    padding: 4px 10px;
+}
+
+.main-section{
+    display:flex;
+    align-items: center;
+    /* h */
+    justify-content: center;
+}
+ 
+.main-left-section{
+    margin-left:180px;
+}
+
+.main-left-section h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.main-left-section h1 span {
+    color:rgb(18, 155, 155);
+    font-weight: 900;
+    font-size:2.5rem;
+}
+
+.main-left-section p {
+    font-weight: 500;
+    font-size:20px;
+}
+
+.main-left-section p span{
+    font-weight: 700;
+    font-size: 25px;
+   color:rgb(18, 155, 155);
+}
+
+.main-right-section {
+    display: flex;
+    flex-direction:column;
+    width:40%;
+    align-items: center;
+    justify-content: center;
+    margin-left:210px;
+    /* gap: 30px; */
+}
+
+
+.btn {
+    display:flex;
+    align-items: center;
+    gap:30px;
+}
+
+.main-right-section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    display:flex;
+    align-items: center;
+    padding:20px 0;
+    justify-content: space-around;
+}
+
+footer p {
+    font-weight: 700;
+}
+
+footer ul {
+    display:flex; 
+    gap:30px;
+    align-items: center;
+}
+
+footer ul li a i:hover {
+    color:black;
+}
