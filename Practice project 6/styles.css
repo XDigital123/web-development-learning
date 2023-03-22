@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    height: 100vh;
+    width:100vw;
+}
+
+
+
+   /***************** for first card ****************/
+
+.first-card {
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.top {
+    background-color: black;
+    width:250px;
+    height:60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.basic{
+    color:white;
+    font-weight: 600;
+    font-size:20px;
+}
+
+.main-top{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+.main-top p {
+    font-weight: 400;
+}
+
+.main-bottom {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-bottom:25px;
+}
+
+.main-bottom .dollar {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main-bottom p {
+    color:rgb(118, 108, 108);
+}
+
+
+.btn {
+    background-color: lightgrey;
+    width:250px;
+    height:60px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+button {
+    padding:8px;
+    background-color: orangered;
+    border-style: none;
+    color:white;
+}
+
+button:hover{
+    background-color: green;
+}
+
+
+
+
+   /************** for second card *************/
+
+
+.second-card {
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.pro{
+    color:white;
+    font-weight: 600;
+    font-size:20px;
+}
+
+
+
+ /************** for third card *************/
+
+
+
+ .third-card {
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+ .premium{
+    color:white;
+    font-weight: 600;
+    font-size:20px;
+}
