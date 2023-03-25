@@ -1,0 +1,214 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    /* background-color: lightgrey; */
+    background-image: radial-gradient(rgb(192, 177, 177), black);
+    height:100vh;
+}
+
+/*********** navigation ***********/
+
+
+
+.nav {
+    display:flex;
+
+}
+
+li {
+    list-style:none;
+    
+}
+
+a {
+    text-decoration:none;
+    color:white;
+}
+
+a:hover {
+    color:green;
+}
+
+.logo {
+    font-size:32px;
+    font-weight: 900px;
+    color:orangered;
+    margin-left:60px;
+}
+
+.menu ul {
+    display:flex;
+    margin-top:15px;
+    gap:100px;
+    margin-inline:130px;
+}
+
+.search {
+    padding:10px;
+    font-size:16px;
+    margin-top:5px;
+    background-color:black;
+}
+
+
+
+
+.search-bar { 
+     display:flex;
+     margin-top: 5px;
+     border:2px solid yellow;
+     margin-right: -50px;
+
+}
+
+input {
+     padding:10px;
+     border-style:none;
+     background-color: white;
+     
+}
+
+.button1 {
+    background-color: orangered;
+    border:none;
+    padding:15px;
+    color:white;
+   
+}
+
+.button1:hover {
+    background-color: green;
+}
+
+
+
+/************ main *************/
+
+.main{
+    display:flex;
+    
+}
+
+h1 {
+    color:white;
+    font-size: 48px;
+}
+
+.heading h1 span {
+    color: orangered;
+    font-size: 60px;
+}
+
+.para {
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    color:white;
+    font-weight: 100px;
+    font-size: 20px;
+}
+
+.button2 {
+    padding:10px 30px 10px 30px;
+    background-color: orangered;
+    border-style:none;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
+.button2:hover {
+    background-color: green;
+}
+
+.main-left{
+    margin-top:150px;
+    margin-left:50px;
+}
+
+
+
+/****************** main-right ***************/
+
+
+.main-right {
+    display:flex;
+    flex-direction: column;
+    margin-top:150px;
+    margin-left:430px;
+    width:350px;
+    height:400px;
+    background-color:black;
+    border-radius: 20px;
+}
+
+
+.login-here {
+    padding:15px 40px;
+    background-color: white;
+    color:orangered;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin:15px 0;
+}
+
+.login {
+    padding:15px 90px;
+    background-color: orangered;
+    color:black;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 20px;
+    margin:15px 0px 15px 0px;
+}
+
+.login:hover {
+    background-color: green;
+}
+
+.dis {
+    margin:5px 10px;
+}
+
+.bottom-para {
+    color:white;
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+    margin:2px 20px;
+    font-size: 18px;
+}
+
+.last-line {
+    color:white;
+    text-align: center;
+    margin-top:10px;
+    font-size:18px;
+}
+
+.bottom-para p span {
+    color:orangered;
+}
+
+
+.icons i {
+    color:white;
+    font-size: 20px;
+}
+
+i:hover {
+    color:green;
+}
+
+.icons {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-inline:50px;
+    margin-top:20px;
+}
