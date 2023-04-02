@@ -1,0 +1,42 @@
+.container {
+    height: 500px;
+    background-color:brown;
+    display:grid;
+    grid-template-rows: 30px 1fr 30px;
+    grid-template-columns: 150px 1fr 150px;
+    text-align: center;
+}
+
+
+.card1 {
+    background-color:red;
+}
+
+.card2 {
+    background-color:green;
+}
+
+.card3  {
+    background-color:blue;
+}
+.card4 {
+    background-color:grey;
+}
+
+.card5 {
+    background-color:yellow;
+}
+
+
+#box1 {
+    grid-column-start:1;
+    grid-column-end: 4;
+}
+
+#box5 {
+    grid-row-start:3;
+    grid-row-end: 4;
+    grid-column-start:1;
+    grid-column-end: 4;
+    height: 30px;
+}
